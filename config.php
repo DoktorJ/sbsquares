@@ -18,7 +18,7 @@
   $hostname = "";
   $user = "";
   $password = "";
-  $link = mysqli_connect($hostname, $user, $password, "sbsquares");
+  $link = new SQLite3('../../db/sbsq.db');
 
   $max_squares = "5";
 ?>
